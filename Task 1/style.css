@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(42, 41, 41);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.left ul{
+    display: flex;
+    list-style: none;
+}
+.left ul li{
+    margin: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+.left ul li:hover{
+    background-color: rgb(125, 122, 122);
+    border-radius: 5px;
+
+}
+.right{
+    margin-right: 4vw;
+
+}
+.right input{
+    margin: 15px;
+    padding: 3px;
+    width: 15vw;
+
+}
+.right button{
+    margin: 15px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.right button:hover{
+    background-color: rgb(245, 99, 99);
+    color: white;
+}
+.left ul li img{
+    width: 100px;
+    height: 60px;
+    margin: 0;
+}
+main{
+    margin: 6vh 0;
+    margin-left: 1.5vw;
+}
+.info{
+    margin-top: 4vh;
+}
+footer{
+    width: 101vw;
+    height: 7vh;
+    background-color: rgb(34, 33, 33);
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+
+}
+.footer p{
+    margin-top: 1vh;
+}
